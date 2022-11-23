@@ -27,7 +27,7 @@ int IndexOf(int[] collection, int find)
     int index = 0;
     int position = -1;
 
-    while (index > count)
+    while (index < count)
     {
         if (collection[index] == find)
         {
